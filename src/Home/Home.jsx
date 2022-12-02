@@ -22,8 +22,8 @@ export const Home = () => {
                             <img className="img" src={item.image} alt="ex" />
                         </div>
                         <div className="infoDiv">
-                            <p>{item.title}</p>
-                            <p>{item.time}</p>
+                            <p className="boldInfo">{item.title}</p>
+                            <p className="boldInfo">{item.time}</p>
                         </div>
                         <div className="btn">
                             <button className="button">HEATS</button>
