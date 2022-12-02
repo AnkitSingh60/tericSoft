@@ -13,20 +13,27 @@ export const Home = () => {
         <hr className="hrLine" />
 
         <div className="box">
-        <div className="cardd">
-            <div className="imgDiv">
-                <img className="img" src="https://c1.wallpaperflare.com/preview/539/737/158/bicycle-bmx-sports-spectacular.jpg" alt="ex" />
-            </div>
-            <div className="infoDiv">
-                <p>title</p>
-                <p>time</p>
-            </div>
-            <div className="btn">
-                <button className="button">HEATS</button>
-                <button className="button">HIGHLIGHTS</button>
-            </div>
-
-        </div>
+        {
+                data.data.map((item)=>{
+                    return (
+                        <div className="cardd">
+            
+                        <div className="imgDiv">
+                            <img className="img" src={item.image} alt="ex" />
+                        </div>
+                        <div className="infoDiv">
+                            <p>{item.title}</p>
+                            <p>{item.time}</p>
+                        </div>
+                        <div className="btn">
+                            <button className="button">HEATS</button>
+                            <button className="button">HIGHLIGHTS</button>
+                        </div>
+            
+                    </div>
+                    )
+                })
+            }
       </div>
       </div>
     </>
