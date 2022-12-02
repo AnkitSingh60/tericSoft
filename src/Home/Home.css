@@ -1,4 +1,7 @@
-
+*{
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
 
 .homeDiv>p{
     color: rgb(252, 233, 233);
