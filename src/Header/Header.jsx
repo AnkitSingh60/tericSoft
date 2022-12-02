@@ -19,7 +19,7 @@ export const Header = () => {
             </div>
 
             <div className="IconDiv">
-            <i className="fa-solid fa-horse"></i>
+            <i class="fa-sharp fa-solid fa-user"></i>
             </div>
 
             <div className="IconDiv">
@@ -31,7 +31,7 @@ export const Header = () => {
             </div>
 
             <div className="IconDiv">
-            <i className="fa-solid fa-horse"></i>
+            <i className="fa-sharp fa-solid fa-heart"></i>
             </div>
 
             <div className="IconDiv">
@@ -39,15 +39,15 @@ export const Header = () => {
             </div>
 
             <div className="IconDiv">
-            <i className="fa-solid fa-horse"></i>
+            <i class="fa-sharp fa-solid fa-shield-halved"></i>
             </div>
 
             <div className="IconDiv">
-            <i className="fa-solid fa-horse"></i>
+            <i class="fa-sharp fa-solid fa-camera-retro"></i>
             </div>
 
             <div className="IconDiv">
-            <i className="fa-solid fa-ship"></i>
+            <i className="fa-sharp fa-solid fa-paperclip"></i>
             </div>
 
         </div>
