@@ -14,12 +14,10 @@ export const Header = () => {
 
         <div className="fonts">
 
-            <div className="IconDiv">
-            <i className="fa-sharp fa-solid fa-star"></i>
-            </div>
+            
 
             <div className="IconDiv">
-            <i class="fa-sharp fa-solid fa-user"></i>
+            <i className="fa-sharp fa-solid fa-user"></i>
             </div>
 
             <div className="IconDiv">
@@ -39,11 +37,11 @@ export const Header = () => {
             </div>
 
             <div className="IconDiv">
-            <i class="fa-sharp fa-solid fa-shield-halved"></i>
+            <i className="fa-sharp fa-solid fa-shield-halved"></i>
             </div>
 
             <div className="IconDiv">
-            <i class="fa-sharp fa-solid fa-camera-retro"></i>
+            <i className="fa-sharp fa-solid fa-camera-retro"></i>
             </div>
 
             <div className="IconDiv">

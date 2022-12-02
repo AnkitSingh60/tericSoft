@@ -4,7 +4,7 @@ import {useSelector} from "react-redux";
 
 export const Home = () => {
     const data = useSelector((state)=>state)
-    console.log('data:', data)
+    // console.log('data:', data)
     
   return (
     <>
@@ -16,7 +16,7 @@ export const Home = () => {
         {
                 data.data.map((item)=>{
                     return (
-                        <div className="cardd">
+                        <div className="cardd" key={item.id}>
             
                         <div className="imgDiv">
                             <img className="img" src={item.image} alt="ex" />
