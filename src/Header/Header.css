@@ -1,0 +1,36 @@
+
+
+.mainDiv{
+    margin: auto;
+    height: 900px;
+    width: 85%;
+    background-color: #2e2e2e;
+}
+
+.fonts{   
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(59, 59, 59);
+    background-color: #2e2e2e;
+}
+
+.fonts>div{
+    width: 12%;
+    border-radius: 50%;
+    border: 1px solid #413f3f;
+    background-color: #2e2e2e;
+}
+
+.IconDiv{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    font-size: 40px;
+    color: #bfbfbf;
+}
+#selected{
+    background-color: #413f3f;
+    
+}

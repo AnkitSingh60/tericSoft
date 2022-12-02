@@ -1,0 +1,54 @@
+
+
+.homeDiv>p{
+    color: rgb(252, 233, 233);
+    text-align: start;
+    margin-left: 3%;
+    font-size: 30px;
+}
+.hrLine{
+    width: 140px;
+    height: 1px;
+    position: relative;
+    right:470px;
+    bottom:30px;
+    border-radius:40%;
+}
+.box{ 
+    display: flex;
+}
+.cardd{ 
+    width: 16rem;
+    height: 30rem;
+    margin-left: 10px;
+    border: 2px solid rgb(82, 80, 80);
+    border-radius:20px;
+}
+
+.infoDiv{
+    display: flex;
+    position: relative;
+    bottom: 35px;
+    text-align: center;
+    background-color: rgba(82, 80, 80, 0.192);
+    justify-content:space-between;
+    align-items:center;
+    height: 30px;
+    color:white;
+
+}
+.img{
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    justify-content:space-around;
+    margin: 10px;
+    position: relative;
+    bottom: 30px;
+}
+.button{
+    border: 1px solid gray;
+    border-radius:5px;
+}
